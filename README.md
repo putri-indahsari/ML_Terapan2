@@ -10,7 +10,7 @@ Di era digital saat ini, industri penerbitan buku mengalami transformasi besar-b
 
 Namun, kemudahan ini juga melahirkan tantangan baru yang dikenal sebagai **paradoks pilihan** (Schwartz, 2004). Ketika terlalu banyak opsi tersedia, pengguna sering merasa kewalahan dan mengalami kesulitan dalam membuat keputusan. Hal ini dapat menurunkan pengalaman pengguna dan menghambat eksplorasi konten baru.
 
-Di sisi lain, **sistem rekomendasi** telah terbukti menjadi alat yang sangat efektif dalam membantu pengguna menavigasi informasi yang melimpah. Menurut Adomavicius & Tuzhilin (2005), sistem rekomendasi berperan penting dalam meningkatkan kepuasan pengguna dengan menyajikan pilihan yang lebih personal. Bahkan, studi Gomez-Uribe & Hunt (2015) menunjukkan bahwa penerapan sistem rekomendasi di platform seperti Netflix berkontribusi pada peningkatan retensi pelanggan sebesar 75%.
+Di sisi lain, **sistem rekomendasi** telah terbukti menjadi alat yang sangat efektif dalam membantu pengguna menavigasi informasi yang melimpah. Menurut Adomavicius & Tuzhilin (2005), sistem rekomendasi berperan penting dalam meningkatkan kepuasan pengguna dengan menyajikan pilihan yang lebih personal. Bahkan, studi Gomez-Uribe & Hunt (2015) menunjukkan bahwa penerapan sistem rekomendasi di platform contohnya seperti Netflix berkontribusi pada peningkatan retensi pelanggan sebesar 75%.
 
 Dengan mengombinasikan data interaksi pengguna, atribut konten buku, dan algoritma _machine learning_, sistem rekomendasi memungkinkan personalisasi yang lebih dalam dan relevan. Selain itu, sistem ini juga membantu mendorong penemuan konten baru (_serendipity_) dan diversifikasi konsumsi, sehingga dapat mengurangi bias popularitas (Cremonesi et al., 2010).
 
@@ -327,6 +327,7 @@ Dengan menggunakan teknik **TF-IDF Vectorization** dan **Cosine Similarity**, mo
 
 Buku yang memiliki karakteristik konten yang mirip dengan buku yang disukai pengguna akan direkomendasikan.
   - similarity(A, B) = (A • B) / (||A|| × ||B||)
+    
 (_Cosine Similarity antara dua vektor fitur buku_)setiap buku direpresentasikan sebagai vektor TF-IDF yang dibangun dari kombinasi fitur Book-Author dan Publisher.Vektor ini representasi numerik dari teks, sehingga buku yang memiliki penulis atau penerbit yang mirip akan memiliki vektor yang cenderung serupa.
 
 Cosine similarity akan menghitung sudut antara dua vektor TF-IDF tersebut:
