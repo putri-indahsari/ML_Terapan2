@@ -327,7 +327,7 @@ Dengan menggunakan teknik **TF-IDF Vectorization** dan **Cosine Similarity**, mo
 
 Buku yang memiliki karakteristik konten yang mirip dengan buku yang disukai pengguna akan direkomendasikan.
 
-```markdown
+```
 $$
 \text{similarity}(A, B) = \frac{A \cdot B}{\|A\| \times \|B\|}
 $$
