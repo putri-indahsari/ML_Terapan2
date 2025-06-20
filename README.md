@@ -326,12 +326,7 @@ Dengan menggunakan teknik **TF-IDF Vectorization** dan **Cosine Similarity**, mo
 #### 1. Cosine Similarity
 
 Buku yang memiliki karakteristik konten yang mirip dengan buku yang disukai pengguna akan direkomendasikan.
-
-```
-$$
-\text{similarity}(A, B) = \frac{A \cdot B}{\|A\| \times \|B\|}
-$$
-```
+  - similarity(A, B) = (A • B) / (||A|| × ||B||)
 (_Cosine Similarity antara dua vektor fitur buku_)setiap buku direpresentasikan sebagai vektor TF-IDF yang dibangun dari kombinasi fitur Book-Author dan Publisher.Vektor ini representasi numerik dari teks, sehingga buku yang memiliki penulis atau penerbit yang mirip akan memiliki vektor yang cenderung serupa.
 
 Cosine similarity akan menghitung sudut antara dua vektor TF-IDF tersebut:
