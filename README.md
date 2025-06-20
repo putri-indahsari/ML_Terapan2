@@ -22,6 +22,9 @@ Dalam proyek ini, data buku diidentifikasi berdasarkan ISBN. ISBN yang tidak val
 2. Cremonesi, P., Koren, Y., & Turrin, R. (2010). Performance of recommender algorithms on top-N recommendation tasks. _Proceedings of the Fourth ACM Conference on Recommender Systems_, 39–46. [https://doi.org/10.1145/1864708.1864721](https://doi.org/10.1145/1864708.1864721)
 3. Gomez-Uribe, C. A., & Hunt, N. (2015). The Netflix recommender system: Algorithms, business value, and innovation. _ACM Transactions on Management Information Systems, 6(4)_, 1–19. [https://doi.org/10.1145/2843948](https://doi.org/10.1145/2843948)
 4. Schwartz, B. (2004). _The paradox of choice: Why more is less_. Harper Perennial.
+5. Ardiansyah, R., Bianto, M. A., & Saputra, B. D. (2023). Sistem Rekomendasi Buku Perpustakaan Sekolah menggunakan Metode Content-Based Filtering. Jurnal CoSciTech (Computer Science and Information Technology), 4(2), 510-518.
+6. Supoyo, B., Mamangkey, X. F. A., Mengko, R. M., Wijaya, I. M. H., Tarigan, V., & Yusupa, A. (2025). Implementasi Sistem E-Book Rekomendasi Berbasis Web Sederhana Menggunakan Content-Based Filtering. Applied Information Technology and Computer Science (AICOMS), 4(1), 15-24.
+7. Ridhwanullah, D., Kumarahadi, Y. K., & Raharja, B. D. (2024). Content-Based Filtering pada Sistem Rekomendasi Buku Informatika. Jurnal Ilmiah SINUS, 22(2), 57-66.
 
 ---
 
